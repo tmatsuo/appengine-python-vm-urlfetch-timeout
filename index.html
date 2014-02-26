@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+{% autoescape true %}
+<html>
+  <head>
+  <body>
+    <h2>Hello!</h2>
+    <a href="{{ url}}">{{ url_linktext }}</a>
+    <p>{{message}}. I'm running on instance URL <a href="{{instance_url}}">{{instance_url}}</a>.</p>
+  </body>
+</html>
+{% endautoescape %}
